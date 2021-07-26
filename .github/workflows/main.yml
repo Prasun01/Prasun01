@@ -27,7 +27,7 @@ jobs:
 
       run: .\ngrok.exe authtoken
 
-      env:
+      env:1
 
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
 
